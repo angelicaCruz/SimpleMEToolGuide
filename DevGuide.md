@@ -20,3 +20,10 @@
   
 - See Assets->DataMesh->Samples
   for coding and modules samples. 
+
+- For debugging: 
+    - Make sure Hololens and WorkStation belong to the same
+      network. 
+    - To make sure that the application is connected to the
+      server, check the Delay value on Console or in the 
+      Output screen. 

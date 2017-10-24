@@ -56,11 +56,6 @@ from HoloLens.
 ### HoloLens App
 - Launch app in HoloLens.
 
-(picture: app start)
-
-(tell them how to use HoloLens app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
-(we need pictures)
-
 **Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears.
 
 **AirTap**: Select focused object.
@@ -72,9 +67,10 @@ from HoloLens.
 ### Surface App (Optional)
 Using Surface is basically the same as using the PC version but instead of using the bar 
 provided in the PC version, user can use the **sliders** provided on the screen.
+
 **Left/Right**: Rotates the scene.
+
 **Up/Down**: To zoom in/out. 
-**Tap**: Focus and select object.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31924683-c562c52e-b8b5-11e7-8060-195a3445d7d3.png" width="500">

@@ -60,9 +60,12 @@ from HoloLens.
 
 (tell them how to use HoloLens app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
 (we need pictures)
-**Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears. 
-**AirTap**: Select focused object
-**Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the view. 
+**Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears.
+
+**AirTap**: Select focused object.
+
+**Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the view.
+
 **Left/Right**: Rotate the view
 
 ### Surface App (Optional)

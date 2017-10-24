@@ -57,7 +57,7 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
         collaborationManager.AddMessageHandler(this);
         //message creation
         MsgEntry entry = new MsgEntry();
-        //add enty fields
+        //add entry fields
         ShowObject showObject = new ShowObject(entry);
         SceneObject roomData = new SceneObject();
         roomData.ShowObjectDic.Add(showObject.ShowId, showObject);        

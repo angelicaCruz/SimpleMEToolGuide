@@ -20,24 +20,19 @@ First get your Rig ready and have **MeshExpert software** installed and configur
 <p align="center"><em>Import METoolkit</em></p>
 </p>
 
-3. Find MEHoloEntrance, drag into Scene. Add **AppID** then, 
-   **CreateAllMEHoloModule**. Decide which modules to enable. 
+3. Find MEHoloEntrance, drag into Scene. Add **AppID** then,**CreateAllMEHoloModule**. Decide which modules to enable. 
    Have in mind the module dependencies.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31932222-539ade72-b8d8-11e7-9908-fae149f5ee0c.png" />
-<img src="https://user-images.githubusercontent.com/26377727/31932223-53cced2c-b8d8-11e7-8645-c432767c9ddd.png"  width="325" height="412">
+<img src="https://user-images.githubusercontent.com/26377727/31932223-53cced2c-b8d8-11e7-8645-c432767c9ddd.png"  width="300" height="412">
 <p align="center"><em>Create All MEHolo Module & Set App ID</em></p>
 </p>
    
-4. Modify **MEConfigNetwork.ini** accordingly to your server's IP
-   address. 
-   This file needs to correct as it will be the same for every build
-   regardless of the target device.
+4. Modify **MEConfigNetwork.ini** accordingly to your server's IP address. 
+   This file needs to correct as it will be the same for every build regardless of the target device.
    
 ## Use METoolkit
-Below is a sample code where **Collaboration Module** is 
-used. 
-
+Below is a sample code where **Collaboration Module** is used. 
 ```c#
 using System.Collections;
 (....)
@@ -96,7 +91,6 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
             if (collaborationManager.enterRoomResult == EnterRoomResult.EnterRoomSuccess)
             {
                 MsgEntry entry = new MsgEntry();
-                GetTransformFloat(cube.transform, entry);
                 SyncMsg msg = new SyncMsg();
                 msg.MsgEntry.Add(entry);
                 collaborationManager.SendMessage(msg);

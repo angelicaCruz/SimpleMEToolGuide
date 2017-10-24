@@ -57,9 +57,9 @@ from HoloLens.
 
 **Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears.
 
-**AirTap**: Select focused object. Make thumb and index fingers meet.
+**AirTap**: Select focused object.
 
-**Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the view.
+**Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the scene view.
 
 **Left/Right**: Rotate the view
 

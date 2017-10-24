@@ -20,8 +20,7 @@ First get your Rig ready and have **MeshExpert software** installed and configur
 <p align="center"><em>Import METoolkit</em></p>
 </p>
 
-3. Find MEHoloEntrance, drag into Scene. Add **AppID** then,**CreateAllMEHoloModule**. Decide which modules to enable. 
-   Have in mind the module dependencies.
+3. Find MEHoloEntrance, drag into Scene. Add **AppID** then,**CreateAllMEHoloModule**. Decide which modules to enable. Have in mind the module dependencies.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31932222-539ade72-b8d8-11e7-9908-fae149f5ee0c.png" />
 <img src="https://user-images.githubusercontent.com/26377727/31932223-53cced2c-b8d8-11e7-8645-c432767c9ddd.png"  width="300" height="412">
@@ -29,7 +28,7 @@ First get your Rig ready and have **MeshExpert software** installed and configur
 </p>
    
 4. Modify **MEConfigNetwork.ini** accordingly to your server's IP address. 
-   This file needs to correct as it will be the same for every build regardless of the target device.
+   This file needs to be correct and it will be the same for every build regardless of the target device.
    
 ## Use METoolkit
 Below is a sample code where **Collaboration Module** is used. 
@@ -109,7 +108,7 @@ For more samples, check out **Samples** folder in the METoolkit.
    IP and app information appear only if the application is connected to the server.
    ```
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="425" />
-  <img src="https://user-images.githubusercontent.com/26377727/31934172-fc6395a8-b8dd-11e7-9f4f-dbd5b7f2d66d.png" width="475" height="170">
+  <img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="425" / >
+  <img src="https://user-images.githubusercontent.com/26377727/31934172-fc6395a8-b8dd-11e7-9f4f-dbd5b7f2d66d.png" width="425" height="170">
   <p align="center"><em>Unity Console & VisualStudio Output Window</em></p>
 </p>

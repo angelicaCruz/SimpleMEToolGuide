@@ -117,7 +117,7 @@ deploy application in HoloLens(or any target device.)
    ```
 <p align="left">
 <img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="300">
-<p align="center"><em>Unity Console</em></p>
+<p align="left"><em>Unity Console</em></p>
 <img src="https://user-images.githubusercontent.com/26377727/31928384-8d793110-b8ca-11e7-99dd-605c648509d2.png" width="300">
-<p align="center"><em>VisualStudio Output</em></p>
+<p align="left"><em>VisualStudio Output</em></p>
 </p>

@@ -116,6 +116,6 @@ deploy application in HoloLens(or any target device.)
    ```
 <p align="left">
   <img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="425" />
-  <img src="https://user-images.githubusercontent.com/26377727/31928384-8d793110-b8ca-11e7-99dd-605c648509d2.png" width="425" height="170">
+  <img src="https://user-images.githubusercontent.com/26377727/31934172-fc6395a8-b8dd-11e7-9f4f-dbd5b7f2d66d.png" width="425" height="170">
   <p align="center"><em>Unity Console & VisualStudio Output Window</em></p>
 </p>

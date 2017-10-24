@@ -2,7 +2,7 @@
 
 ## RIG Ready
 
-First get your Rig ready and have MeshExpert software installed and configured, like the following:
+First get your **Rig** ready and have **MeshExpert software** installed and configured, like the following:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/7636848/26872303-9d9425d0-4ba8-11e7-8e90-80e7389a41e2.png" width="500">
@@ -23,13 +23,13 @@ First get your Rig ready and have MeshExpert software installed and configured, 
 
 **Move Anchor**: Move object on the scene.
 
-**Start Record**: Record scene and interacton with Camera. 
+**Start Record**: Record scene and background with Camera. 
 
 **Take snap**: Take a picture.
 
 **Hide/Show Preview**: Hide/show the small window in the upper right corner. 
 
-**Full Screen**: hide bar. 
+**Full Screen**: Hide bar. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" width="500">
@@ -54,11 +54,10 @@ from HoloLens.
 **Config HoloLens**: Contains HoloLens status related information.
 
 ### HoloLens App
-- Launch app in HoloLens.
 
 **Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears.
 
-**AirTap**: Select focused object.
+**AirTap**: Select focused object. Make thumb and index fingers meet.
 
 **Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the view.
 

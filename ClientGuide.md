@@ -33,11 +33,12 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 
 **Delay**, **Anti Shake**, **Alpha** and **Sound** can also be modified through the bar provided.
 
-<p align="left">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" height="120" />
 <img src="https://user-images.githubusercontent.com/26377727/31930357-07da7fac-b8d2-11e7-9ae5-2539eeebb4cd.png">
 <p align="center"><em>HoloLens Connect Button and  Bar in Live!</em></p>
 </p>
+
 **Connect Hololens**: Connects Hololens to the PC app.
 
 **Start/Stop Follow**: Start/Stop synchronization.

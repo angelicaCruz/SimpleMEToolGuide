@@ -34,8 +34,7 @@ First get your Rig ready and have **MeshExpert software** installed and configur
 ## Use METoolkit
 Below is a sample code where **Collaboration Module** is used. 
 ```c#
-using System.Collections;
-(....)
+using System.Collections;(....)
 
 public class GettingStartedSample : MonoBehaviour, IMessageHandler
 {
@@ -59,17 +58,14 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
         collaborationManager.AddMessageHandler(this);
         //message creation
         MsgEntry entry = new MsgEntry();
-        entry.ShowId = "Test";
-        GetTransformFloat(cube.transform, entry);
+        //add enty fields
         ShowObject showObject = new ShowObject(entry);
         SceneObject roomData = new SceneObject();
-        roomData.ShowObjectDic.Add(showObject.ShowId, showObject);
-        
+        roomData.ShowObjectDic.Add(showObject.ShowId, showObject);        
         collaborationManager.roomInitData = roomData;
         collaborationManager.TurnOn();
     }
     (...)   
-    
     //create message for collaboration
     public void DealMessage(SyncProto proto)
     {
@@ -79,6 +75,7 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
         for (int i = 0; i < messages.Count; i++)
        {
             MsgEntry msg = messages[i];
+            //use msg fields
             Debug.Log("Receive Message! " + msg.Pr);
         }
     }
@@ -102,12 +99,9 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
 For more samples, check out **Samples** folder in the METoolkit.
 
 ## Run and Debug
-
 1. Compile the project to target multiple platforms (HoloLens, PC, UWP).
-2. Start MeshExpert Center. Run the application in Unity. Build and 
-deploy application in HoloLens(or any target device.)
-3. For debugging chech the following values in the **Console** for Unity and 
-   in the **Output** window in VisualStudio for Hololens: 
+2. Start MeshExpert Center. Run the application in Unity. Build and deploy application in HoloLens(or any target device.)
+3. For debugging chech the following values in the **Console** for Unity and in the **Output** window in VisualStudio for Hololens: 
    ```
    Delay : if zero, then app is not connected to the server
    ip 

@@ -1,40 +1,85 @@
-# METool Guide: Client Guide
+# MeshExpert Live: Quick Guide for Users
 
-- Install correctly Hololens to the rig.
+## RIG Ready
+
+First get your Rig ready and have MeshExpert software installed and configured, like the following:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/7636848/26872303-9d9425d0-4ba8-11e7-8e90-80e7389a41e2.png" width="500">
+<p align="center"><em>Get Rig Ready</em></p>
+</p>
+
+## Run Your App
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31922652-dd777f68-b8a8-11e7-8e04-6d76e3eb1625.png" width="500">
+<p align="center"><em>SolarSystem.exe</em></p>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31922726-406bd15a-b8a9-11e7-9b41-652447e8da88.png" width="500">
+<p align="center"><em>ME Live Bar</em></p>
+</p>
+
+**Move Anchor**: move object on the scene
+**Start Record**: record scene and interacton with Camera. 
+**Take snap**: take a picture
+**Hide/Show Preview**: hide/show the small window in the upper right corner. 
+**Full Screen**: hide hide the bar. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" width="500">
+<p align="center"><em>Connect Hololens Button</em></p>
+</p>
+
+This button connects automatically HoloLens to the PC application.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31923094-736e34ba-b8ab-11e7-8f49-543485f63687.png" width="500">
+<p align="center"><em>HoloLens Bar in Live!</em></p>
+</p>
+
+**Start/Stop Follow**: Start/Stop synchronization
+**Download Anchor**: Synchronizes *collaborating* devices. 
+Any changes made with one device will be brought to the other. 
+**Download Spatial**: Downloads the spatial mapping information
+from HoloLens.
+**Config Hololens**: Contains HoloLens status related information.
+
+### PC App
+
+(snapshot)
+
+(tell them what to click and for what)
+
+### HoloLens App
+
+(tell them how to use HoloLens app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
+
+
+
+### Surface App (Optional)
+
+(tell them how to use Surface app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
+
+
+
+
+
+- Install correctly Hololend to the rig.
   Use DataMesh provided rig as pieces are
   already proven to work together. We can
-  provide consultation for the moounting of
-  the rig and can guarantee the rig's stability.
-  
-- Install MeshExpert Center to enable server.
-  Make sure it's running well and Service IP is
-  provided.
-  
-- Make sure to have an offline licence or any 
-  licence plan provided by DataMesh.
-  (reference Licence Plan and e-mail to ask for a license)
+  provid consultation for the moounting of
+  the rig.
 
-- Add HoloLens in MeshExpert Portal's list
-  of devices. It can be helpful in managing
-  applicarion on added dvice.
-  
-- Make sure Workstation and HoloLens belong to
-  the same VLAN.
-  
+  Make sure Hololens and PC belong to the 
+  same network.(??)
+
 ## PC Version
 - Find and open the **.exe** file of the 
   application to start ME Live!
   (use of ME Live to be added)
-  
+
 - Start the application in HoloLens.
-
-If HoloLens application and PC version are not
-working together, check the MEConfigNetwork.ini
-of the application. 
-It is possible that the Server_Host IP address
-provided is not the one that is provided by 
-MeshExpert Portal. 
-
-## Live!
 
 

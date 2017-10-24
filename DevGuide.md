@@ -2,7 +2,7 @@
 
 ## RIG Ready
 
-First get your Rig ready and have **MeshExpert software** installed and configured, like the following:
+First get your **Rig** ready and have **MeshExpert software** installed and configured, like the following:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/7636848/26872303-9d9425d0-4ba8-11e7-8e90-80e7389a41e2.png" width="500">
@@ -11,30 +11,26 @@ First get your Rig ready and have **MeshExpert software** installed and configur
 
 
 ## Import METoolkit
-
 1. Download METoolkit from DataMesh Download Center.
 2. Import METoolkit.
-
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31927182-7359d4ce-b8c5-11e7-92a7-8c2b3dffa84b.png" width="500">
 <p align="center"><em>Import METoolkit</em></p>
 </p>
-
 3. Find MEHoloEntrance, drag into Scene. Add **AppID** then,**CreateAllMEHoloModule**. Decide which modules to enable. Have in mind the module dependencies.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31932222-539ade72-b8d8-11e7-9908-fae149f5ee0c.png" height="300" />
 <img src="https://user-images.githubusercontent.com/26377727/31932223-53cced2c-b8d8-11e7-8645-c432767c9ddd.png" height="300">
 <p align="center"><em>Create All MEHolo Module & Set App ID</em></p>
-</p>
-   
+</p>   
 4. Modify **MEConfigNetwork.ini** accordingly to your server's IP address. 
    This file needs to be correct and it will be the same for every build regardless of the target device.
    
 ## Use METoolkit
-Below is a sample code where **Collaboration Module** is used. 
+Below is a sample code where **Collaboration Module** from **METoolkit** is used. 
 ```c#
-using System.Collections;(....)
-
+using System.Collections;
+(....)
 public class GettingStartedSample : MonoBehaviour, IMessageHandler
 {
     public GameObject cube;
@@ -98,11 +94,11 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
 For more samples, check out **Samples** folder in the METoolkit.
 
 ## Run and Debug
-1. Compile the project to target multiple platforms (HoloLens, PC, UWP).
-2. Start MeshExpert Center. Run the application in Unity. Build and deploy application in HoloLens(or any target deviced.)
-3. For debugging check the following values in the **Console** for Unity and in the **Output** window in VisualStudio for Hololens: 
+1. Compile the project to target platform(HoloLens, PC, UWP).
+2. Start MeshExpert Center. Run the application in Unity. Build and deploy application in HoloLens(or any target devices).
+3. For debugging check the following values in the **Console** for Unity and in the **Output** window in VisualStudio for HoloLens: 
    ```
-   Delay : if zero, then app is not connected to the server
+   Delay : if zero, then app is not connected to the designated server.
    ip 
    app
    IP and app information appear only if the application is connected to the server.

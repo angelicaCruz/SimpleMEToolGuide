@@ -32,7 +32,7 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 **Full Screen**: Hide bar. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" width="500">
+<img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" width="250">
 <p align="center"><em>Connect Hololens Button</em></p>
 </p>
 
@@ -45,13 +45,13 @@ This button connects automatically HoloLens to the PC application.
 
 **Start/Stop Follow**: Start/Stop synchronization.
 
-**Download Anchor**: Synchronizes *collaborating* devices. 
-Any changes made with one device will be brought to the other. 
+**Download Anchor**: Synchronizes *collaborating* devices. Any changes made with one device will be brought to the other. 
 
-**Download Spatial**: Downloads the spatial mapping information
-from HoloLens.
+**Download Spatial**: Downloads the spatial mapping information from HoloLens.
 
 **Config HoloLens**: Contains HoloLens status related information.
+
+With **METoolKit** and its modules, one application can be **shared** by different devices. With **Collaboration Module** it is possible to control one application using different devices. For example, a PC application can be controlled with Hololens (or Surface) and viceversa.
 
 ### HoloLens App
 
@@ -59,13 +59,12 @@ from HoloLens.
 
 **AirTap**: Select focused object.
 
-**Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the scene view.
+**Up/down**: Hold then move up and down to zoom in/out the scene view.
 
 **Left/Right**: Rotate the view
 
 ### Surface App (Optional)
-Using Surface is basically the same as using the PC version but instead of using the bar 
-provided in the PC version, user can use the **sliders** provided on the screen.
+Using Surface is basically the same as using the PC version but instead of using the bar provided in the PC version, user can use the **sliders** provided on the screen.
 
 **Left/Right**: Rotates the scene.
 

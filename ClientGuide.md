@@ -60,6 +60,7 @@ from HoloLens.
 
 (tell them how to use HoloLens app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
 (we need pictures)
+
 **Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears.
 
 **AirTap**: Select focused object.

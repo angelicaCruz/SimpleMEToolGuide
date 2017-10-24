@@ -21,15 +21,15 @@ First get your Rig ready and have MeshExpert software installed and configured, 
 <p align="center"><em>ME Live Bar</em></p>
 </p>
 
-**Move Anchor**: move object on the scene.
+**Move Anchor**: Move object on the scene.
 
-**Start Record**: record scene and interacton with Camera. 
+**Start Record**: Record scene and interacton with Camera. 
 
-**Take snap**: take a picture.
+**Take snap**: Take a picture.
 
-**Hide/Show Preview**: hide/show the small window in the upper right corner. 
+**Hide/Show Preview**: Hide/show the small window in the upper right corner. 
 
-**Full Screen**: hide hide the bar. 
+**Full Screen**: hide bar. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" width="500">
@@ -51,7 +51,7 @@ Any changes made with one device will be brought to the other.
 **Download Spatial**: Downloads the spatial mapping information
 from HoloLens.
 
-**Config Hololens**: Contains HoloLens status related information.
+**Config HoloLens**: Contains HoloLens status related information.
 
 ### HoloLens App
 - Launch app in HoloLens.

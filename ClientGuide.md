@@ -78,5 +78,5 @@ provided in the PC version, user can use the **sliders** provided on the screen.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31924683-c562c52e-b8b5-11e7-8060-195a3445d7d3.png" width="500">
-<p align="center"><em>ME Live Bar</em></p>
+<p align="center"><em>Surface App</em></p>
 </p>

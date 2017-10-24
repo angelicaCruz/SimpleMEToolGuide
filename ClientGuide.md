@@ -9,7 +9,7 @@ First get your Rig ready and have MeshExpert software installed and configured, 
 <p align="center"><em>Get Rig Ready</em></p>
 </p>
 
-## Run Your App
+## Run Your PC App
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31922652-dd777f68-b8a8-11e7-8e04-6d76e3eb1625.png" width="500">
@@ -46,7 +46,6 @@ This button connects automatically HoloLens to the PC application.
 **Start/Stop Follow**: Start/Stop synchronization.
 
 **Download Anchor**: Synchronizes *collaborating* devices. 
-
 Any changes made with one device will be brought to the other. 
 
 **Download Spatial**: Downloads the spatial mapping information
@@ -54,40 +53,18 @@ from HoloLens.
 
 **Config Hololens**: Contains HoloLens status related information.
 
-### PC App
-
-(snapshot)
-
-(tell them what to click and for what)
-
 ### HoloLens App
+- Launch app in HoloLens.
+
+(picture: app start)
 
 (tell them how to use HoloLens app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
-
-
+(we need pictures)
+**Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears. 
+**AirTap**: Select focused object
+**Up/down**: Hold thumb and index fingers together, move up and down to zoom in/out the view. 
+**Left/Right**: Rotate the view
 
 ### Surface App (Optional)
-
+(need snapshots)
 (tell them how to use Surface app to control the scenes and interactions, better with snapshot, use SolarSystemExplorer as example)
-
-
-
-
-
-- Install correctly Hololend to the rig.
-  Use DataMesh provided rig as pieces are
-  already proven to work together. We can
-  provid consultation for the moounting of
-  the rig.
-
-  Make sure Hololens and PC belong to the 
-  same network.(??)
-
-## PC Version
-- Find and open the **.exe** file of the 
-  application to start ME Live!
-  (use of ME Live to be added)
-
-- Start the application in HoloLens.
-
-

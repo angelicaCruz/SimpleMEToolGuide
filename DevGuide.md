@@ -34,11 +34,7 @@ used.
 
 ```c#
 using System.Collections;
-using UnityEngine;
-using DataMesh.AR.Network;
-using DataMesh.AR;
-using MEHoloClient.Entities;
-using MEHoloClient.Proto;
+(....)
 
 public class GettingStartedSample : MonoBehaviour, IMessageHandler
 {
@@ -50,6 +46,7 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
         StartCoroutine(WaitForInit());
     }
 
+    //initialize modules and variables
     private IEnumerator WaitForInit()
     {
         MEHoloEntrance entrance = MEHoloEntrance.Instance;
@@ -59,50 +56,34 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
         }
 
         collaborationManager = CollaborationManager.Instance;
-
         collaborationManager.AddMessageHandler(this);
-
+        //message creation
         MsgEntry entry = new MsgEntry();
         entry.ShowId = "Test";
         GetTransformFloat(cube.transform, entry);
-
         ShowObject showObject = new ShowObject(entry);
         SceneObject roomData = new SceneObject();
         roomData.ShowObjectDic.Add(showObject.ShowId, showObject);
-
+        
         collaborationManager.roomInitData = roomData;
-
         collaborationManager.TurnOn();
     }
-
-    private void GetTransformFloat(Transform trans, MsgEntry entry)
-    {
-        entry.Pr.Clear();
-
-        float[] rs = new float[6];
-        entry.Pr.Add(trans.position.x);
-        entry.Pr.Add(trans.position.y);
-        entry.Pr.Add(trans.position.z);
-        entry.Pr.Add(trans.eulerAngles.x);
-        entry.Pr.Add(trans.eulerAngles.y);
-        entry.Pr.Add(trans.eulerAngles.z);
-    }
-
+    (...)   
+    
+    //create message for collaboration
     public void DealMessage(SyncProto proto)
     {
         Google.Protobuf.Collections.RepeatedField<MsgEntry> messages = proto.SyncMsg.MsgEntry;
         if (messages == null)
             return;
-
         for (int i = 0; i < messages.Count; i++)
-        {
+       {
             MsgEntry msg = messages[i];
-            cube.transform.position = new Vector3(msg.Pr[0], msg.Pr[1], msg.Pr[2]);
-            cube.transform.eulerAngles = new Vector3(msg.Pr[3], msg.Pr[4], msg.Pr[5]);
             Debug.Log("Receive Message! " + msg.Pr);
         }
     }
-
+    
+    //message creation in case of new message recieved
     void Update()
     {
         if (collaborationManager != null)
@@ -110,13 +91,9 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
             if (collaborationManager.enterRoomResult == EnterRoomResult.EnterRoomSuccess)
             {
                 MsgEntry entry = new MsgEntry();
-                entry.OpType = MsgEntry.Types.OP_TYPE.Upd;
-                entry.ShowId = "Test";
                 GetTransformFloat(cube.transform, entry);
-
                 SyncMsg msg = new SyncMsg();
                 msg.MsgEntry.Add(entry);
-
                 collaborationManager.SendMessage(msg);
             }
         }
@@ -138,11 +115,9 @@ deploy application in HoloLens(or any target device.)
    app
    IP and app information appear only if the application is connected to the server.
    ```
-<p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="500">
+<p align="left">
+<img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="300">
 <p align="center"><em>Unity Console</em></p>
-</p>   
-<p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31928384-8d793110-b8ca-11e7-99dd-605c648509d2.png" width="500">
+<img src="https://user-images.githubusercontent.com/26377727/31928384-8d793110-b8ca-11e7-99dd-605c648509d2.png" width="300">
 <p align="center"><em>VisualStudio Output</em></p>
 </p>

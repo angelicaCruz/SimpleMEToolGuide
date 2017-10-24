@@ -23,12 +23,10 @@ First get your Rig ready and have **MeshExpert software** installed and configur
 3. Find MEHoloEntrance, drag into Scene. Add **AppID** then, 
    **CreateAllMEHoloModule**. Decide which modules to enable. 
    Have in mind the module dependencies.
-<p align="left">
-<img src="https://user-images.githubusercontent.com/26377727/31932222-539ade72-b8d8-11e7-9908-fae149f5ee0c.png" width="425" />
-<p align="center"><em>Create All MEHoloModule</em></p>
-<img src="https://user-images.githubusercontent.com/26377727/31932223-53cced2c-b8d8-11e7-8645-c432767c9ddd.png" width="425" >
-<p align="center"><em>Set App ID</em></p>
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31932222-539ade72-b8d8-11e7-9908-fae149f5ee0c.png" height="300" />
+<img src="https://user-images.githubusercontent.com/26377727/31932223-53cced2c-b8d8-11e7-8645-c432767c9ddd.png">
+<p align="center"><em>Create All MEHolo Module & Set App ID</em></p>
 </p>
    
 4. Modify **MEConfigNetwork.ini** accordingly to your server's IP

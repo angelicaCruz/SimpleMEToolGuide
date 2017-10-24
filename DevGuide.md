@@ -99,8 +99,8 @@ For more samples, check out **Samples** folder in the METoolkit.
 
 ## Run and Debug
 1. Compile the project to target multiple platforms (HoloLens, PC, UWP).
-2. Start MeshExpert Center. Run the application in Unity. Build and deploy application in HoloLens(or any target device.)
-3. For debugging chech the following values in the **Console** for Unity and in the **Output** window in VisualStudio for Hololens: 
+2. Start MeshExpert Center. Run the application in Unity. Build and deploy application in HoloLens(or any target deviced.)
+3. For debugging check the following values in the **Console** for Unity and in the **Output** window in VisualStudio for Hololens: 
    ```
    Delay : if zero, then app is not connected to the server
    ip 

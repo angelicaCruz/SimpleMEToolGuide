@@ -21,10 +21,14 @@ First get your Rig ready and have MeshExpert software installed and configured, 
 <p align="center"><em>ME Live Bar</em></p>
 </p>
 
-**Move Anchor**: move object on the scene
+**Move Anchor**: move object on the scene.
+
 **Start Record**: record scene and interacton with Camera. 
-**Take snap**: take a picture
+
+**Take snap**: take a picture.
+
 **Hide/Show Preview**: hide/show the small window in the upper right corner. 
+
 **Full Screen**: hide hide the bar. 
 
 <p align="center">
@@ -39,11 +43,15 @@ This button connects automatically HoloLens to the PC application.
 <p align="center"><em>HoloLens Bar in Live!</em></p>
 </p>
 
-**Start/Stop Follow**: Start/Stop synchronization
+**Start/Stop Follow**: Start/Stop synchronization.
+
 **Download Anchor**: Synchronizes *collaborating* devices. 
+
 Any changes made with one device will be brought to the other. 
+
 **Download Spatial**: Downloads the spatial mapping information
 from HoloLens.
+
 **Config Hololens**: Contains HoloLens status related information.
 
 ### PC App

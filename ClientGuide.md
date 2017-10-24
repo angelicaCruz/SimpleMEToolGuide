@@ -39,7 +39,7 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 This button connects automatically HoloLens to the PC application.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31923094-736e34ba-b8ab-11e7-8f49-543485f63687.png" width="500">
+<img src="https://user-images.githubusercontent.com/26377727/31930357-07da7fac-b8d2-11e7-9ae5-2539eeebb4cd.png" width="500">
 <p align="center"><em>HoloLens Bar in Live!</em></p>
 </p>
 

@@ -9,7 +9,7 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 <p align="center"><em>Get Rig Ready</em></p>
 </p>
 
-## Run Your PC App
+## Run Your App
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31922652-dd777f68-b8a8-11e7-8e04-6d76e3eb1625.png" width="500">
@@ -51,7 +51,7 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 
 With **METoolKit** and its modules, one application can be **shared** by different devices. With **Collaboration Module** it is possible to control one application using different devices. For example, a PC application can be controlled with Hololens (or Surface) and viceversa.
 
-### HoloLens App
+#### HoloLens App
 
 **Gaze**: Focus holographic object. When an object is focused a hand shape cursor appears.
 
@@ -61,7 +61,7 @@ With **METoolKit** and its modules, one application can be **shared** by differe
 
 **Left/Right**: Rotate the view
 
-### Surface App (Optional)
+#### Surface App (Optional)
 Using Surface is basically the same as using the PC version but instead of using the bar provided in the PC version, user can use the **sliders** provided on the screen.
 
 **Left/Right**: Rotates the scene.

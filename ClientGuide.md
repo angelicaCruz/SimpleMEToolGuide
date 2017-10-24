@@ -49,7 +49,7 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 
 **Config HoloLens**: Contains HoloLens status related information.
 
-With **METoolKit** and its modules, one application can be **shared** by different devices. With **Collaboration Module** it is possible to control one application using different devices. For example, a PC application can be controlled with Hololens (and/or Surface) and viceversa.
+With **MeshExpert** it is possible for several devices to share and control the same application through **Collaboration Module**.
 
 ### HoloLens App
 

@@ -12,12 +12,12 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 ## Run Your PC App
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31922652-dd777f68-b8a8-11e7-8e04-6d76e3eb1625.png" width="250">
+<img src="https://user-images.githubusercontent.com/26377727/31922652-dd777f68-b8a8-11e7-8e04-6d76e3eb1625.png" width="500">
 <p align="center"><em>SolarSystem.exe</em></p>
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31922726-406bd15a-b8a9-11e7-9b41-652447e8da88.png" width="250">
+<img src="https://user-images.githubusercontent.com/26377727/31922726-406bd15a-b8a9-11e7-9b41-652447e8da88.png" width="500">
 <p align="center"><em>ME Live Bar</em></p>
 </p>
 
@@ -30,6 +30,8 @@ First get your **Rig** ready and have **MeshExpert software** installed and conf
 **Hide/Show Preview**: Hide/show the small window in the upper right corner. 
 
 **Full Screen**: Hide bar. 
+
+**Delay**, **Anti Shake**, **Alpha** and **Sound** can also be modified through the bar provided.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26377727/31922725-403500ee-b8a9-11e7-8aaf-996c676f1e20.png" width="250">
@@ -71,6 +73,6 @@ Using Surface is basically the same as using the PC version but instead of using
 **Up/Down**: To zoom in/out. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26377727/31924683-c562c52e-b8b5-11e7-8060-195a3445d7d3.png" width="250">
+<img src="https://user-images.githubusercontent.com/26377727/31924683-c562c52e-b8b5-11e7-8060-195a3445d7d3.png" width="500">
 <p align="center"><em>Surface App</em></p>
 </p>

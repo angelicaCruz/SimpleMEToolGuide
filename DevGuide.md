@@ -109,7 +109,7 @@ For more samples, check out **Samples** folder in the METoolkit.
    IP and app information appear only if the application is connected to the server.
    ```
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" />
-  <img src="https://user-images.githubusercontent.com/26377727/31934172-fc6395a8-b8dd-11e7-9f4f-dbd5b7f2d66d.png">
+  <img src="https://user-images.githubusercontent.com/26377727/31928385-8dbec4c8-b8ca-11e7-801f-98ee1f412fc2.png" width="425" />
+  <img src="https://user-images.githubusercontent.com/26377727/31934172-fc6395a8-b8dd-11e7-9f4f-dbd5b7f2d66d.png" width="475" height="170">
   <p align="center"><em>Unity Console & VisualStudio Output Window</em></p>
 </p>

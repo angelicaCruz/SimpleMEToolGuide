@@ -4,7 +4,7 @@
 ```
 1. Make sure your HoloLens is connnected to the correct WiFi (same one the PC is connected to).
 2. Try to restart your HoloLens and LiveAgent via Device portal 
-(go to http://your-hololens-ip in your browser, and restart DataMeshLiveAgent at the "App" tab).   
+   (go to http://your-hololens-ip in your browser, and restart DataMeshLiveAgent at the "App" tab).   
 3. Contact technician to check the IP configuration for your HoloLens.
 ```
 
@@ -19,7 +19,7 @@
 ### PC app frozen with "loading cursor"?
 ```
 1. When it happens, it means that MeshExpertServer is not connected. Make sure to have a valid 
-MeshExpert License installed and it has not expired.
+   MeshExpert License installed and it has not expired.
 2. Check the "MeshExpert Center" dashboard to make sure the Services are running.
 3. To make sure it's not your Firewall that caused the problem, turn it of and restart the application.
 ```
